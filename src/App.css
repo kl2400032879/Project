@@ -1,0 +1,43 @@
+/* src/App.css */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  background-color: var(--color-light-bg);
+  min-height: 500px;
+}
+
+.hero-content {
+  max-width: 45%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: var(--color-text);
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.metrics-section {
+  text-align: center;
+  margin-top: -50px; /* Pull the metrics section up to overlap the hero background */
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}

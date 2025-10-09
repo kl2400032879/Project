@@ -1,0 +1,95 @@
+/* src/pages/SignupPage.css */
+
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: var(--color-light-bg);
+}
+
+.signup-illustration {
+    flex: 1;
+    max-width: 450px;
+    padding: 20px;
+}
+/* Center the form card */
+.signup-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-card h2 {
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 25px;
+}
+
+/* Tabs */
+.role-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.role-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.role-tabs button.active {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+/* Form Styling */
+.signup-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.or-divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 38%;
+  height: 1px;
+  background: #ccc;
+}
+
+.or-divider::before { left: 0; }
+.or-divider::after { right: 0; }
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}

@@ -1,0 +1,86 @@
+/* src/Pages/JobDetailsPage.css */
+
+.job-details-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.details-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.details-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* Info Boxes (Hourly, Duration, etc.) */
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+}
+
+.info-boxes > div {
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #eee;
+}
+
+.info-boxes > div:last-child {
+    border-right: none;
+}
+
+.info-boxes span {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+/* Section Styles */
+.responsibilities-section, .skills-section {
+    margin-bottom: 30px;
+}
+
+.responsibilities-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+.responsibilities-section li {
+    margin-bottom: 8px;
+}
+
+.skills-section h3, .responsibilities-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.detail-tag {
+    background-color: var(--color-light-bg);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: var(--color-text);
+}
+
+.apply-actions {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}

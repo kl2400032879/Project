@@ -1,0 +1,73 @@
+/* src/Pages/JobApplicationPage.css */
+.application-page-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: var(--color-light-bg);
+}
+
+.application-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.application-form h2 {
+    margin-bottom: 25px;
+}
+
+.input-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.attach-file {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.attach-file label {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.submission-blocks-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.submission-block {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.block-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.terms-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+}

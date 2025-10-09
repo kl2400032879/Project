@@ -1,0 +1,63 @@
+/* src/Pages/JobListingPage.css */
+
+.job-listing-page {
+    background-color: var(--color-light-bg);
+    min-height: 100vh;
+}
+
+.listing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+}
+
+.listing-header .logo {
+    color: var(--color-primary);
+}
+
+.listing-header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.job-listings-main {
+    padding: 20px 5%;
+}
+
+.illustration-banner {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.job-cards-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination button.active {
+    background-color: var(--color-primary);
+    color: white;
+}
