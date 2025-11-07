@@ -4,8 +4,8 @@ import NavBar from "./Components/NavBar.jsx";
 import Button from "./Components/Button.jsx";
 import MetricCard from "./Components/MetricCard.jsx";
 import FindJobsPage from './Data/FindJobsPage.jsx';
-import SignUpPage from './Pages/SignUpPage.jsx';
-import LoginPage from './Pages/LoginPage.jsx'; // Make sure this file exists
+import SignUpPage from './pages/SignUpPage.jsx';
+import LoginPage from './pages/LoginPage.jsx'; // Make sure this file exists
 import VerificationPage from './pages/VerificationPage.jsx'; // <-- IMPORT VERIFICATION PAGE
 import './App.css'; 
 

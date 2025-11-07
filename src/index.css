@@ -69,4 +69,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .page-section {
+  padding: 80px;
+  max-width: 800px;
+  margin: auto;
+}
+
 }
